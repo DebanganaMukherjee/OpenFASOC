@@ -50,6 +50,11 @@
 ### GDS report
 
 The following images represent the layouts of the aux cells. The .gds files are present in /blocks/sky130hd folder.
+  
+![WhatsApp Image 2022-11-05 at 15 45 04](https://user-images.githubusercontent.com/110731913/200115868-9173b071-4d55-4786-9fff-16270011d521.jpeg)
+  
+![WhatsApp Image 2022-11-05 at 15 46 02](https://user-images.githubusercontent.com/110731913/200115888-d9069210-6a34-4904-9bda-2b67fe968eb7.jpeg)
+
 
 
 
