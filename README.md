@@ -1,4 +1,5 @@
-# OpenFASOC
+# OpenFASOC (For Temperature Sensor Generator)
+
 ##Starting the OpenFASOC Flow:
 
 ![image](https://user-images.githubusercontent.com/110731913/200114897-e1b3e0fd-192b-4c3f-a88e-c237eba90370.png)
