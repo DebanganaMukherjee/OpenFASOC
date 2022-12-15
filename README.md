@@ -53,3 +53,18 @@ Avg Active time of DOWN > Avg Active time of UP   = Dis-Charging of Capacitance 
 - This file takes the input specifications from test.json and outputs Verilog files containing the description of the circuit.
 - PLL-gen.py calls other modules from PLL-gen/tools/ during execution. For example, parameter.py is in charge of reading test.json, checking for correct user input and choosing the correct circuit elements for the PLL circuit.
 
+## FUTURE WORK
+- Pre-layout simulation is not matching with Post-layout simulation.
+- ALIGN PDK are been used in the design, this encounters an issue at OpenFaSoc.
+
+## Acknowledgement
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+- Nickson Jose, VLSI Engineer, VSD Corp. Pvt. Ltd.
+- Madhav Rao, Professor, IIIT-Bangalore.
+- Nanditha Rao, Professor, IIIT-Bangalore.
+
+## Contact Information
+- Vasanthi D R, PhD Scholar, International Institute of Information Technology, Bangalore vasanthidr11@gmail.com
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+- Madhav Rao, Professor, IIIT-Bangalore. mr@iiitb.ac.in
+- Nanditha Rao, Professor, IIIT-Bangalore. nanditha.rao@iiitb.ac.in
