@@ -2,8 +2,8 @@
 
 OpenFASoC is a project focused on automated analog generation from user specification to GDSII with fully open-sourced tools. It is led by a team of researchers at the University of Michigan and is inspired from FASoC which sits on proprietary software.
 The goal of the FaSoC generator is to reduce the number of manual/custom steps and use Automated Digital design flow even for analog designs.
-Learn more about OpenFasoc at: https://github.com/idea-fasoc/OpenFASOC
-Learn more about FaSoC at: https://fasoc.engin.umich.edu/
+- Learn more about OpenFasoc at: https://github.com/idea-fasoc/OpenFASOC
+- Learn more about FaSoC at: https://fasoc.engin.umich.edu/
 
 ## Phase Locked Loop(PLL)
 ### Working and Block diagram
