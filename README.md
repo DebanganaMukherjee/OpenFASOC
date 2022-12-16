@@ -48,10 +48,26 @@ Avg Active time of DOWN > Avg Active time of UP   = Dis-Charging of Capacitance 
 
 ## PLL Generator Flow: Verilog File Generation
 
-- Open the terminal in the PLL-gen directory and execute make sky130hd_pll_verilog to generate the Verilog files.
-- Running make sky130hd_pll_verilog executes the PLL-gen.py script from PLL-gen/tools/. 
+- Open the terminal in the PLL-gen directory and execute the following make command to generate the Verilog files.
+
+```
+make sky130hd_pll_verilog
+```
+
+- Running 'make sky130hd_pll_verilog' executes the PLL-gen.py script from PLL-gen/tools/. 
 - This file takes the input specifications from test.json and outputs Verilog files containing the description of the circuit.
 - PLL-gen.py calls other modules from PLL-gen/tools/ during execution. For example, parameter.py is in charge of reading test.json, checking for correct user input and choosing the correct circuit elements for the PLL circuit.
+
+## PLL Generator Flow: Synthesis, Placement and Routing
+
+To run verilog generation, synthesis, placement and routing, run the following make command for PLL generator:
+```
+make sky130hd_pll
+```
+
+A snapshot of the PLL Generator Flow using the above command is given below:
+
+![WhatsApp Image 2022-12-15 at 23 13 41](https://user-images.githubusercontent.com/110731913/208042639-85dc2fe8-91b9-47aa-a365-6dc031c21b07.jpeg)
 
 ## FUTURE WORK
 - Pre-layout simulation is not matching with Post-layout simulation.
